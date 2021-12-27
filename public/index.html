@@ -2,9 +2,23 @@
 <html lang="en">
     <head>
         <title>Sensor monitoring dashboard</title>
-        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <p id="temperature-display">Loading temperature...</p>
+        <header>Sensor Dashboard</header>
+        <div class="container">
+            <div class="temperature">
+                <p class="title">Temperature</p>
+                <p class="value" id="temperature-display">Loading temperature...</p>
+                <p class="unit">ºC</p>
+            </div>
+            <div class="humidity">
+                <p class="title">Humidity</p>
+                <p class="value" id="humidity-display">Loading humidity...</p>
+                <p class="unit">%</p>
+            </div>
+        </div>
     </body>
 </html>
