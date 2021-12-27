@@ -1,8 +1,8 @@
 const getSensorReadings = require('./get-sensor-readings');
 
 const cache = {
-    temp: null,
-    hum: null
+    temp: 0,
+    hum: 0
 };
 
 setInterval(() => {
