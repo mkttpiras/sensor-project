@@ -25,11 +25,11 @@ body {
     background-color: #c5cae9;
 }
 
-.container.title {
+.container .title {
     font-size: 1.2em;
 }
 
-.container.value {
+.container .value {
     font-size: 2em;
 }
 
